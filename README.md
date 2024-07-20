@@ -1,5 +1,7 @@
 # Node.js ToDo App
 
+![Screenshot of the project](https://github.com/PranavT3626/To-do-list-/blob/main/Screenshot%20(63).png)
+
 ## Overview
 This project is a backend application developed using Node.js and Express.js for managing to-do notes. It provides a robust set of functionalities to create, update, retrieve, and delete to-do notes, with optional support for uploading images associated with notes. The application follows RESTful API conventions and integrates seamlessly with a PostgreSQL database to store and manage the to-do notes data.
 
@@ -43,5 +45,4 @@ The application exposes a set of RESTful APIs for interacting with to-do notes. 
 ## Error Handling
 The application ensures robust error handling, providing appropriate error messages and status codes for various scenarios, such as invalid input data, resource not found, and internal server errors.
 
-![Screenshot of the project](https://github.com/PranavT3626/To-do-list-/blob/main/Screenshot%20(63).png)
 
