@@ -5,6 +5,10 @@
 ## Overview
 This project is a backend application developed using Node.js and Express.js for managing to-do notes. It provides a robust set of functionalities to create, update, retrieve, and delete to-do notes, with optional support for uploading images associated with notes. The application follows RESTful API conventions and integrates seamlessly with a PostgreSQL database to store and manage the to-do notes data.
 
+## Visit My Project
+You can visit my project on GitHub by clicking [here](https://github.com/PranavT3626/To-do-list-).
+
+
 ## Features
 - **Create ToDo Note**: Allows users to create new to-do notes with a title, description, and optional image upload.
 - **Update ToDo Note**: Enables users to update existing to-do notes, including modifying the title, description, and associated image.
@@ -21,17 +25,33 @@ The project follows a well-organized directory structure, separating concerns in
 - **routes**: Defines route handlers for different API endpoints.
 - **uploads**: Stores uploaded images associated with to-do notes.
 - **utils**: Contains utility functions used across the application.
+- **public**: Contains static files such as HTML, CSS, and JavaScript.
+  - **index.html**: The main HTML file.
+  - **main.css**: The main CSS file.
+  - **main.js**: The main JavaScript file.
 - **index.js**: Main entry point of the application.
 - **package.json**: Contains metadata and dependencies information for the project.
 - **README.md**: Provides essential information about the project, including setup instructions and API documentation.
 
 ## Setup Instructions
 To set up the application locally, follow these steps:
-1. Clone the repository.
-2. Install dependencies using npm.
-3. Set up the environment variables.
-4. Start the application using npm.
-
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/PranavT3626/To-do-list-.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd To-do-list-
+    ```
+3. Install dependencies using npm:
+    ```bash
+    npm install
+    ```
+4. Set up the environment variables.
+5. Start the application using npm:
+    ```bash
+    npm start
+    ```
 
 ## API Documentation
 The application exposes a set of RESTful APIs for interacting with to-do notes. Below is the documentation for each API endpoint:
@@ -41,8 +61,6 @@ The application exposes a set of RESTful APIs for interacting with to-do notes. 
 - **Delete ToDo Note**: `DELETE /api/todos/:id`
 - **Create Multiple ToDo Notes**: `POST /api/todos/multiple`
 
-
 ## Error Handling
 The application ensures robust error handling, providing appropriate error messages and status codes for various scenarios, such as invalid input data, resource not found, and internal server errors.
-
 
